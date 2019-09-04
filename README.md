@@ -11,8 +11,9 @@ Gangster Legends v2 is a open source PBBG game engine written in PHP using a MyS
 
 1. Extract files to your webserver
 2. Create a new database and a user
-3. Import `install/schema.sql` and `install/data.sql` to your MySQL Database
+3. Import first`install/schema.sql` and then `install/data.sql` to your MySQL Database
 4. Open up `dbconn.php` and alter the connection string with your MySQL username, password and database name
+exp/    ("mysql:host=localhost;dbname= db naam", "user naam", "wachtwoord")
 5. The game should now be made with some sample data
 6. You can login with the email `Admin@yourgame.com` and the password `adminPass`
 7. Go to your profile and change your password
